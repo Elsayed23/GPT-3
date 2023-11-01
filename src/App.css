@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+    background: var(--color-bg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+    width: 17px;
+    background: #040C18;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-thumb {
+    background: #031B34;
 }
 
-.App-link {
-  color: #61dafb;
+.header::before {
+    z-index: -1;
+    background-image: url(./assets//blurTopLeft.svg);
+    filter: blur(282px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header::after {
+    z-index: -1;
+    background-image: url(./assets//blurTopRight.svg);
+    filter: blur(282px);
+}
+
+.gradient_text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.what_is_GPT {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.what_is_GPT::before {
+    background-image: url(./assets/GPT_blurTop.svg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.what_is_GPT::after {
+    background-image: url(./assets/GPT_blurBottom.svg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.topLine::before {
+    background: var(--gradient-text);
+}
+
+.getStarted {
+    background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
