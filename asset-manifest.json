@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GPT-3/static/css/main.0085fa97.css",
-    "main.js": "/GPT-3/static/js/main.1ff29e9b.js",
+    "main.js": "/GPT-3/static/js/main.e7886681.js",
     "static/media/ai.png": "/GPT-3/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/possibility.png": "/GPT-3/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/GPT-3/static/media/blog01.cefc0932eae0d33a0342.png",
@@ -17,10 +17,10 @@
     "static/media/GPT_blurTop.svg": "/GPT-3/static/media/GPT_blurTop.c6f9290bd72f7a8edcd1.svg",
     "static/media/GPT_blurBottom.svg": "/GPT-3/static/media/GPT_blurBottom.4d1fbc1aac788f5383b1.svg",
     "main.0085fa97.css.map": "/GPT-3/static/css/main.0085fa97.css.map",
-    "main.1ff29e9b.js.map": "/GPT-3/static/js/main.1ff29e9b.js.map"
+    "main.e7886681.js.map": "/GPT-3/static/js/main.e7886681.js.map"
   },
   "entrypoints": [
     "static/css/main.0085fa97.css",
-    "static/js/main.1ff29e9b.js"
+    "static/js/main.e7886681.js"
   ]
 }
