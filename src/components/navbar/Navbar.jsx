@@ -42,7 +42,7 @@ const Nav = () => {
     );
 
     return (
-        <Navbar className="absolute top-0 w-full left-0  bg-[#040C18] lg:bg-transparent backdrop-saturate-0 backdrop-filter-none shadow-none  pb-10 lg:pb-6 pt-10 max-w-full border-none">
+        <Navbar className="absolute top-0 w-full left-0  bg-[#040C18] lg:bg-transparent z-50 backdrop-saturate-0 backdrop-filter-none shadow-none  pb-10 lg:pb-6 pt-10 max-w-full border-none">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center gap-12">
                     <Typography
